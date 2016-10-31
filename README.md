@@ -4,6 +4,7 @@
 
 Database: Contains a map based custom cache to store the customer details as key value pair,with key as `CUST_{id}`.It is cleared u when the application restarts.
 
+Basic input validations are in place,with approriate response code.
 Available apis:
 ```
 GET /customers/{id} : get customer details based on id.
