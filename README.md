@@ -1,5 +1,7 @@
 # customerservice
-Sample customer service
+
+###Sample customer service.
+
 Database: Contains a map based custom cache to store the customer details as key value pair,with key as `CUST_{id}`.It is cleared u when the application restarts.
 
 Available apis:
